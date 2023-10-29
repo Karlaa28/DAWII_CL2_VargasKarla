@@ -3,10 +3,10 @@ package pe.edu.cibertec.DAWII_CL2_VargasKarla.Service;
 import lombok.AllArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import pe.edu.cibertec.appwebventascibertec.model.bd.Rol;
-import pe.edu.cibertec.appwebventascibertec.model.bd.Usuario;
-import pe.edu.cibertec.appwebventascibertec.repository.RolRepository;
-import pe.edu.cibertec.appwebventascibertec.repository.UsuarioRepository;
+import pe.edu.cibertec.DAWII_CL2_VargasKarla.Repository.RolRepository;
+import pe.edu.cibertec.DAWII_CL2_VargasKarla.Repository.UsuarioRepository;
+import pe.edu.cibertec.DAWII_CL2_VargasKarla.model.bd.pk.Rol;
+import pe.edu.cibertec.DAWII_CL2_VargasKarla.model.bd.pk.Usuario;
 
 import java.util.Arrays;
 import java.util.HashSet;

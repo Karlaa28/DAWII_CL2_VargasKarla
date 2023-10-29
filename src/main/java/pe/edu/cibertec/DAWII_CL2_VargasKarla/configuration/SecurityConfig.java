@@ -9,7 +9,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-import pe.edu.cibertec.appwebventascibertec.service.DetalleUsuarioService;
+import pe.edu.cibertec.DAWII_CL2_VargasKarla.Service.DetalleUsuarioService;
 
 @Configuration
 @EnableWebSecurity
@@ -36,7 +36,7 @@ public class SecurityConfig {
                 ).formLogin(
                         login ->
                                 login.loginPage("/auth/login")
-                                        .defaultSuccessUrl("/auth/login-success")
+                                        .defaultSuccessUrl("/auth/home")
                                         .usernameParameter("nomusuario")
                                         .passwordParameter("password")
                 ).authenticationProvider(authenticationProvider());

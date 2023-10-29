@@ -8,8 +8,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import pe.edu.cibertec.appwebventascibertec.model.bd.Rol;
-import pe.edu.cibertec.appwebventascibertec.model.bd.Usuario;
+import pe.edu.cibertec.DAWII_CL2_VargasKarla.model.bd.pk.Rol;
+import pe.edu.cibertec.DAWII_CL2_VargasKarla.model.bd.pk.Usuario;
+
 
 import java.util.ArrayList;
 import java.util.HashSet;
